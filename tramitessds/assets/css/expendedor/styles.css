@@ -1,0 +1,480 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		margin: 10px auto 10px auto;
+		background-image:url('../images/bg.png');
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 0.75em;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	#header{
+		background: linear-gradient(to right, #005ca9 0%,
+		#009fe3 100%);
+		    background-color: 
+		rgba(0, 0, 0, 0);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-image: linear-gradient(to right,
+		rgb(0, 92, 169) 0%,
+		rgb(0, 159, 227) 100%);
+		background-size: auto;
+		background-origin: padding-box;
+		background-clip: border-box;
+		padding-top: 5px;
+		padding-bottom: 15px;
+		max-width: 100% !important;
+	}
+
+		
+	#header #periodo{
+		text-align: right;
+		padding-right: 20px;
+		font-size: 14px;			
+	}
+	
+	#header #usuario{
+		text-align: right;
+		padding-right: 20px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+	}
+	
+	#header #textlogo{		
+		text-align: right;
+		padding-right: 1px;
+		padding-top: 10px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 2em;
+		color:white;
+		font-weight: bolder; 
+	}
+
+    #footer #textlogo{		
+		text-align: right;
+		padding-right: 1px;
+		padding-top: 10px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 1em;
+		color:white;
+		font-weight: bolder; 
+	}
+        #header #textfecha  {		
+		text-align: center;
+		padding-right: 5px;
+		padding-top: 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 12px;
+		font-weight: normal; 
+	}
+        
+        #header #textnota  {		
+		text-align: center;
+		padding-right: 1px;
+		padding-top: 1px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 9px;
+		font-weight: normal; 
+	}
+	
+	#menu{
+		background: linear-gradient(to right, #005ca9 0%,
+		#009fe3 100%);
+	    background-color: 
+		rgba(0, 0, 0, 0);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-image: linear-gradient(to right,
+		rgb(0, 92, 169) 0%,
+		rgb(0, 159, 227) 100%);
+		background-size: auto;
+		background-origin: padding-box;
+		background-clip: border-box;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 12px;
+		color: #009fe3;
+		max-width: 100% !important;
+	}
+
+	.row.max-width{
+		max-width: 100% !important;
+	}
+	.custom { width: 78px !important; }
+	
+	menu #dropdown {
+		position: absolute;
+	    top: 100%;
+	    left: 0;
+	    z-index: 1000;
+	    display: none;
+	    float: left;
+	    min-width: 160px;
+	    padding: 5px 0;
+	    margin: 2px 0 0;
+	        margin-top: 2px;
+	    font-size: 14px;
+	    text-align: left;
+	    list-style: none;
+	    background-color: #009fe3;
+	    -webkit-background-clip: padding-box;
+	    background-clip: padding-box;
+	    border: 1px solid #ccc;
+	    border: 1px solid rgba(0,0,0,.15);
+	    border-radius: 4px;
+	        border-top-left-radius: 4px;
+	        border-top-right-radius: 4px;
+	    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	}
+	
+	
+	#menu a:link {text-decoration:none; color: white;} 
+	#menu a:visited {text-decoration:none; color:white; } 	
+	#menu a:hover {text-decoration:underline; color:#3371FF;}
+	
+	#menu select{
+		background-color: #DFDFDF;
+		font-size: 12px;
+		
+	}
+	
+	#container{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 0.9em;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	#container2{
+	    background-color: #FFFFFF;
+		text-align: justify;
+		line-height: 18px;		
+	}
+	
+	#container2 #contenido{
+		padding: 8px 8px 8px 8px;
+	}
+	
+	#container2 #contenido #login{
+		/*padding-left: 38%;*/
+	}
+	
+	#container2 h1{
+		padding-bottom: 10px;
+		font-size: 18px;
+		color: #302e5e;
+	}
+	
+	#container2 .table{
+		border-collapse: collapse;
+		border: none;
+	}
+	
+	#container2 .table thead{
+		background-color: #DFDFDF;
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table tbody{
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table th{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table td{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table .row1{
+		height: 20px;
+		background-color: #FFFFFF;	
+	}
+	
+	#container2 .table .row2{
+		height: 20px;
+		background-color: #EFEFEF;
+	}
+	
+	#container2 .table1{
+		border-collapse: collapse;
+		border: none;
+	}
+	
+	#container2 .table1 thead{
+		background-color: #DFDFDF;
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table1 tbody{
+		border: 1px solid #CCCCCC;
+	}
+	
+	#container2 .table1 th{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table1 td{		
+		padding-left: 10px;
+	}
+	
+	#container2 .table1 .row1{
+		height: 20px;
+		background-color: #FFFFFF;	
+	}
+	
+	#container2 .table1 .row2{
+		height: 20px;
+		background-color: #EFEFEF;
+	}
+	
+	
+	
+	#container2 #contenido #content #tabs{
+		color: #0000ff;
+	}
+	
+	#footer{
+		background: linear-gradient(to right, #005ca9 0%,
+		#009fe3 100%);
+		background-color: 
+		rgba(0, 0, 0, 0);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-image: linear-gradient(to right,
+		rgb(0, 92, 169) 0%,
+		rgb(0, 159, 227) 100%);
+		background-size: auto;
+		background-origin: padding-box;
+		background-clip: border-box;	
+		padding-top: 5px;
+		padding-bottom: 30px;
+		text-align: center;
+		line-height: 18px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 0.9em;
+		font-weight: normal;
+		color: white;
+	}
+	
+	
+	
+/*** CSS FORMULARIOS ***/	
+	
+	form label{
+		color: #333333;
+		padding-right: 20px;
+	}
+	
+	form .txtLogin{
+		border: 1px solid #DFDFDF;
+		border-radius: 5px;
+		padding: 2px 5px 2px 5px;
+		text-align: center;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 18px;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	form .textbox{
+		border: 1px solid #DFDFDF;
+		border-radius: 2px;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	form .button{
+		border: 1px solid #BCBCBC;
+		border-radius: 3px;
+		text-align: center;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	.textbox{
+		border: 1px solid #DFDFDF;
+		border-radius: 2px;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	.button{
+		border: 1px solid #BCBCBC;
+		border-radius: 3px;
+		text-align: center;
+		padding: 2px 5px 2px 5px;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		color: #333333;
+	}
+	
+	.select{
+		border: 1px solid #DFDFDF;
+		border-radius: 3px;		
+		padding: 2px 2px 2px 2px;
+		font-family: Tahoma, Geneva, sans-serif;		
+		font-weight: normal;
+		color: #333333;
+                width:175px;
+	}
+	.select1{
+		border: 1px solid #DFDFDF;
+		border-radius: 3px;		
+		padding: 2px 2px 2px 2px;
+		font-family: Tahoma, Geneva, sans-serif;		
+		font-weight: normal;
+		color: #333333;
+                width:230px;
+	}
+        
+        .selectpeque{
+		border: 1px solid #DFDFDF;
+		border-radius: 3px;		
+		padding: 2px 2px 2px 2px;
+		font-family: Tahoma, Geneva, sans-serif;		
+		font-weight: normal;
+		color: #333333;
+	}
+
+	.fieldset{
+		padding: 10px 10px 10px 10px;
+		border: 1px solid #BCBCBC;
+	}
+
+	.redText{
+		color: #333;
+	}
+	
+	
+
+	.fondo-pest1 {
+		color: #333;
+		background: url(../images/fondo-pest1.png) no-repeat bottom center;
+		margin-bottom: 5px;
+		min-height: 300px;
+		}
+
+	.fondo-pest2 {
+		color: #333;
+		background: url(../images/fondo-pest2.png) no-repeat bottom right;
+		margin-bottom: 5px;
+		min-height: 300px;
+		}
+
+        td.details-control {
+            background: url('https://cdn.rawgit.com/DataTables/DataTables/6c7ada53ebc228ea9bc28b1b216e793b1825d188/examples/resources/details_open.png') no-repeat center center;
+            cursor: pointer;
+        }
+        tr.shown td.details-control {
+            background: url('https://cdn.rawgit.com/DataTables/DataTables/6c7ada53ebc228ea9bc28b1b216e793b1825d188/examples/resources/details_close.png') no-repeat center center;
+        }
+
+
+
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+/*
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+*/
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+/*
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+/* } */
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not
+        listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with
+        its content--*/
+}
+
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+.select2-selection { overflow: hidden; }
+.select2-selection__rendered { white-space: normal; word-break: break-all; }

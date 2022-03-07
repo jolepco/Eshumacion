@@ -1,0 +1,20 @@
+# php_value memory_limit 2000M
+# RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ /terceros/pagosSDS/index.php/$1 [L]
+# ErrorDocument 404 /terceros/pagosSDS/index.php
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond $1 !^(index\.php|assets|ci_session|css|files|images|js|uploads|videos|robots\.txt)
+    # RewriteCond %{REQUEST_FILENAME} !-f
+    # RewriteCond %{REQUEST_FILENAME} !-d
+    # RewriteBase /root_folder_name/
+    # RewriteCond %{REQUEST_URI} ^system.*
+    RewriteRule ^(.*)$ index.php/$1 [L]
+    php_value max_input_vars 15000
+    php_value suhosin.get.max_vars 15000
+    php_value suhosin.post.max_vars 15000
+    php_value suhosin.request.max_vars 15000
+    php_value short_open_tag 1
+</IfModule>

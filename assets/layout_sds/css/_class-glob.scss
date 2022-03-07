@@ -1,0 +1,103 @@
+//Display
+.d-flex
+{
+    display: flex !important;
+}
+
+.f-start-row-wrap
+{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.d-inflex
+{
+    display: inline-flex !important;
+}
+
+.d-inblock
+{
+    display: inline-block !important;
+}
+
+.d-block
+{
+    display: block !important;
+}
+
+//Botones de colores
+
+.c-ora
+{
+    background-color: $c-ora;
+}
+
+.c-red
+{
+    background-color: $c-red;
+}
+
+.c-green 
+{
+    background-color: $c-green;
+}
+
+.c-blue
+{
+    background-color: $c-blue;
+}
+
+
+// Margenes
+//izquierda
+
+.m-left-0
+{
+    margin-left: 0 !important;
+}
+
+//derecha
+.m-right-0
+{
+    margin-right: 0 !important; 
+}
+
+.m-right-05
+{
+    margin-right: 5px !important;
+}
+
+.m-right-1
+{
+    margin-right: 10px !important;
+}
+
+.m-right-2
+{
+    margin-right: 20px !important;
+}
+
+//padding
+
+.p-top-0
+{
+    padding: 0 !important;
+}
+
+//Alineación vertical
+
+.va-top
+{
+    vertical-align: top !important;
+}
+
+.va-middle
+{
+    vertical-align: middle !important;
+}
+
+.va-bottom
+{
+    vertical-align: bottom !important;
+}

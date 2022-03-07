@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+   /* font-size: 1.5rem;*/
+    font-family: 'Raleway', sans-serif;
+    color: #5c6267;
+    background-color: #fff;
+    height: 100%;
+    /*background-image: url('../imgs/background@4x.png');*/
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50%;
+}
+
+.img-salud {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+   /* padding: 10px 45px;*/
+    position: relative;
+}
+
+.tabla_resp{
+    width:900px;
+    margin: 0 auto;
+}
+
+.brand-site {
+    width: 80%;
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    margin:0 auto;
+}
+
+.sds-logo,
+.discp-logo {
+    height: 70px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.discp-logo {
+    height: 80px;
+}
+
+.title-site {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title-site h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.main-info {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    text-align: left;
+    /* margin: 15px 0;*/
+    margin-right: 20px;
+    float:left;
+}
+
+.text-login {
+    color: #333;
+    /*font-family: 'Roboto Slab', serif;*/
+}
+
+.form-control {
+    height: auto;
+    /*padding: 10px 15px;*/
+    /*border: 0;*/
+    border-radius: 7px;
+    border-bottom: 1px solid #999;
+    box-shadow: none;
+    position: relative;
+    transition: .35s all linear;
+}
+
+.form-control:hover,
+.form-control:focus {
+    box-shadow: none;
+    border-bottom-color: #61ABEB;
+    border-bottom-width: 2px;
+}
+
+.select-inp::before {
+    content: '+';
+    width: 30px;
+   /* background-color: #61ABEB;*/
+   background-color: #000080;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    height: 43px;
+    padding: 15px;
+    padding: 11px 10px;
+    color: #fff;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.btn-consulta {
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+    width: 100px;
+    border: 0;
+    background-color: #3498db;
+    color: white;
+    height: 30px;
+}
+
+.row2{
+    margin-right: -15px;
+    margin-left: -15px;
+    border-bottom: 1px dashed black;
+    width:80%;
+    margin: 0 auto;
+}
+
+.contenedor_busq{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.btn-consulta input {
+    width: 150px;
+    padding: 10px;
+    /*background-color: #91e14e;*/
+    background-color: #3498db;
+    border: 0;
+    border-radius: 0;
+    transition: .35s all linear;
+}
+
+.btn-consulta input:hover,
+.btn-consulta input:focus {
+    background-color: #000080;
+   /*  background-color: #87c354;*/
+    box-shadow: 0 2px 3px rgba(0,0,0,.25);
+}
+

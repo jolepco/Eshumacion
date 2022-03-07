@@ -1,0 +1,95 @@
+{
+         margin: 0;
+         padding: 0;
+ 
+      }
+ 
+      
+ 
+     #navbar-default{
+        color: white;
+         height: 62px;
+        background: linear-gradient(to right, #005ca9 0%,
+        #009fe3 100%);
+          background-color: 
+        rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: linear-gradient(to right,
+        rgb(0, 92, 169) 0%,
+        rgb(0, 159, 227) 100%);
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+       text-align: center;
+     }
+ 
+     #nav ul{
+        list-style: none;
+        display: inline-block;
+     }
+ 
+     #nav ul li{
+         float: left;
+         margin-top: 20px;
+     }
+ 
+     #nav ul li a {
+         color: blue;
+         font-weight: bold;
+         text-decoration: none;
+         font-size: 12px;
+         padding: 20px;
+     }
+ 
+     #nav ul li a:hover{
+       background-color: #33F3FF;
+     }
+
+     
+
+     @media only screen and (max-width : 500px) {
+    nav {
+        border-bottom: 0;
+        height: auto;
+    }
+
+    nav ul {
+        display: none;
+        height: auto;
+        width: 100%;
+    }
+
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+
+    nav a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+    }
+
+    nav a#pull {
+        display: block;
+        background-color: #666;
+        width: 100%;
+        position: relative;
+    }
+
+    nav a#pull:after {
+        content:"";
+        background: url('nav-icon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+}
+ 

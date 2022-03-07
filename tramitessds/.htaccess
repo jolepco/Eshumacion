@@ -1,0 +1,9 @@
+php_value memory_limit 128M
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /tramitessds/index.php/$1 [L] 
+ErrorDocument 404 /tramitessds/index.php 
+
+php_value upload_max_filesize 80M
+php_value post_max_size 80M

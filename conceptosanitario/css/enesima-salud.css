@@ -1,0 +1,252 @@
+/*** ESTILOS ENESIMA  - SDS *****/
+
+body {
+   font-family: 'Nunito', sans-serif;
+   color: #384047;
+   top: 0px;
+   left: 0px;
+   background: #ffffff; 
+}
+ 
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+   background: rgba(255,255,255,0.1);
+   border: none;
+   font-size: 16px;
+   height: 32px;
+   margin: 0;
+   outline: 0;
+   padding: 0px 3px;
+   background-color: #ffffff;
+   color: #00A3B6;
+   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+   margin-bottom: 30px;
+   border: 1px solid #CBCBCB;
+}
+ 
+input[type="radio"],
+input[type="checkbox"] {
+   margin: 0 4px 8px 0;
+}
+ 
+select {
+   padding: 6px;
+   border-radius: 2px;
+}
+
+.selectlargo {
+    overflow-wrap: break-word;
+}
+ 
+button  {
+   padding: 19px 39px 18px 39px;
+   color: #FFF;
+   background-color: #00a0dd;
+   font-size: 18px;
+   text-align: center;
+   font-style: normal;
+   border-radius: 5px;
+   width: 200px;
+   border: 0px solid #3ac162;
+   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
+ 
+button:hover {
+    background-color: #ffffff;
+    color: #00a0dd;
+}
+
+.habeasdata {
+    background-color: #e6e6e6;
+    /*border-color: red!important;*/
+    color: #777;
+    text-align: justify;
+    font-size: 1.1em;
+    width:100%;
+    padding: 5px 20px;
+    line-height: normal;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+div.habeasdata input {
+    text-align: center !important;
+}  
+ 
+
+
+.div1label {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    text-align: left;
+    border: 0px solid orange;
+}
+ 
+.div2input {
+    /*position: relative;*/
+    width: 100%;
+    padding: 0px;
+    border: 0px solid green;
+}
+ 
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background-color: #ffffff;
+    /*resize: none;*/
+}
+ 
+.input1 {
+    width: 25%;
+    border: 1px solid #cccccc;
+}
+.input2 {
+    width: 50%;
+    border: 1px solid #cccccc;
+}
+.input3 {
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+ 
+.col1 {
+    position: relative;
+    float: left;
+    padding: 1%;
+    width: 50%;
+    border: 0px solid red;
+    margin: -15px 0px 0px 0px;
+}
+ 
+.col2 {
+    position: relative;
+    float: left;
+    padding: 1%;
+    width: 100%;
+    border: 0px solid blue;
+    margin: -15px 0px 0px 0px;
+}
+ 
+ 
+ 
+/***** TOOLTIP *****/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    color: #999999;
+    font-size: 0.60em;
+}
+ 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #d8e5e6;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #5a898c;
+    padding: 3px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+}
+ 
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+ 
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.divDato {
+    position: relative;
+    float: left;
+    padding: 3px;
+    margin: 0px 1px 0px 0px;
+    width: 50%;
+}
+
+
+/***** VALIDACIONES DE LOS CAMPOS *****/
+
+input:invalid {
+	border: 1px dotted red;
+}
+
+input:valid {
+	border: 1px dotted green;
+}
+
+select:invalid {
+	border: 1px dotted red;
+}
+
+select:valid {
+	border: 1px dotted green;
+}
+
+/***** otros *****/
+
+.texto {
+    color: #777;
+    text-align: center;
+    font-size: 1.1em;
+    width:100%;
+    padding: 5px 0px;
+    line-height: normal;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 0px solid red;
+}
+
+.texto2 {
+    color: #003B64;
+    text-align: center;
+    font-size: 1.1em;
+    width:100%;
+    padding: 5px 0px;
+    line-height: normal;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 0px solid red;
+}
+
+.forma {
+	text-align: center;
+}
+
+input[type="number"] {
+   width: 50%;
+   border: 1px solid red;
+}

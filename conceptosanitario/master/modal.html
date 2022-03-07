@@ -1,0 +1,32 @@
+  <!-- -->
+  <div class="col-xl-2"></div>
+  <div class="modal alert" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header" id="header_into">
+                  <h5 class="modal-title" style=" color: #ffffff">Información Importante</h5>
+              </div>
+              <div class="modal-body">
+                  <div class="alert" role="alert">
+                      <div class="text-justify" id="respuestaMensaje"></div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnCerrar" style="background-color: #003e65; color: #ffffff;">Cerrar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+    function showAlert( mensaje , tipo ){
+        $("#ocultar").hide();
+        $('#respuestaMensaje').html(mensaje);
+		$('#header_into').removeClass();
+		$('#header_into').addClass('modal-header');
+        $('#header_into').addClass(tipo);
+        $('#myModal').modal('show');
+    }
+  </script>
+
+

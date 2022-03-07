@@ -1,0 +1,18 @@
+#header{
+    background: linear-gradient(to right, #005ca9 0%,
+    #009fe3 100%);
+        background-color: 
+    rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(to right,
+    rgb(0, 92, 169) 0%,
+    rgb(0, 159, 227) 100%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}

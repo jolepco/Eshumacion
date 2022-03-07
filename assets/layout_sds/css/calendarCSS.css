@@ -1,0 +1,50 @@
+#calendar {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#calendar caption {
+    text-align: left;
+    padding: 5px 10px;
+    color: #333;
+    font-weight: 700;
+}
+
+#calendar caption div
+{
+    font-size: 1.5rem;
+}
+
+#calendar caption div:nth-child(1) {
+    float: left;
+}
+
+#calendar caption div:nth-child(2) {
+    float: right;
+}
+
+#calendar caption div:nth-child(2) a {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#calendar th {
+    color: #333;
+    font-size: 1.35rem;
+    padding: 10px;
+    
+}
+
+#calendar td {
+    text-align: right;
+    padding: 2px 5px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#calendar .hoy {
+    background-color: #FFC370;
+}

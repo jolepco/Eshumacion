@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 0 15px;
+    background-image: url(../imgs/1x/background-bogota.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto;
+}
+
+.logos-center {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px
+}
+
+.logos-center img {
+    margin: 0 15px
+}
+
+.inputs-login {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    position: relative;
+    margin: 15px auto 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.form-group-login {
+    margin: 15px auto;
+    text-align: left;
+    width: 70%;
+    position: relative;
+}
+
+.form-group-login label {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-group-login label::after {
+    content: "*";
+    position: absolute;
+    right: 0;
+    color: #F15E63;
+}
+
+.form-group-login input {
+    display: block;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    font-size: 1.5rem
+}
+
+.form-group-login input[type="submit"] {
+    display: block;
+    width: 45%;
+    background-color: #264467;
+    color: #fff;
+    border: 1px solid #1C314A;
+    cursor: pointer;
+}
+
+.form-group-login input[type="submit"]:hover {
+    background-color: #61ABEB;
+    border: 1px solid #4E89BD;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #00C9E9;
+}
+
+.content {
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../imgs/1x/header-background.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    padding: 12.5px 20px;
+}
+
+.content img {
+    height: 90%;
+    margin-right: 15px;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    box-sizing: content-box;
+    height: auto;
+}
+
+.content-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.menu-left,
+.menu-right {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.menu-left li,
+.menu-right li {
+    display: inline-block;
+    box-sizing: content-box;
+    margin: 0;
+    position: relative;
+    margin-right: -4px;
+}
+
+.id-text {
+    padding: 15px;
+}
+
+.id-text img {
+    width: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.menu-left li a,
+.menu-right li a {
+    padding: 15px 15px;
+    box-sizing: content-box;
+    text-decoration: none;
+    color: #333;
+    transition: .15s all linear;
+    position: relative;
+}
+
+.log-out-btn {
+    background-color: #F15E63;
+    border-left: 1px solid #BD4A4E;
+    border-right: 1px solid #BD4A4E;
+    color: #fff !important;
+}
+
+.menu-left li a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    -webkit-transition: height .2s ease-in-out;
+    -o-transition: height .2s ease-in-out;
+    transition: height .2s ease-in-out;
+}
+
+.accent-bg-color-before::before {
+    background: #00C9E9;
+}
+
+.menu-left li a:hover::before {
+    height: 5px;
+}
+
+.menu-right li a:hover {
+    background-color: #D43238;
+}
+
+.contenido_general {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+footer {
+    position: relative;
+    background-color: #264467;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 150px;
+}
+
+
+.prev {
+    float: left;
+    display: block;
+}
+
+.next,.submit {
+    float: right;
+    display: block;
+    background-color: #264467;
+    color: #fff;
+    border: 1px solid #1C314A;
+    cursor: pointer;
+}
+
+.next:hover,.submit:hover  {
+    background-color: #61ABEB;
+    border: 1px solid #4E89BD;
+}
+
+.error {
+    color: #b33;
+}

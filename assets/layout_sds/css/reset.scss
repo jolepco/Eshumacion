@@ -1,0 +1,15 @@
+@import "_var";
+@import url('https://fonts.googleapis.com/css?family=Saira:400,700');
+
+* 
+{
+    margin: $mar0;
+    padding: $pad0;
+    font-size: $font-m;
+    font-family: $saira;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}

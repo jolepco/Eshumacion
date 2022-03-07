@@ -1,0 +1,583 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"uplo",
+				"uploads"
+			],
+			[
+				"id",
+				"id_persona"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"c",
+				"config"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"num",
+				"num_personas"
+			],
+			[
+				"user",
+				"userdata"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"fec",
+				"fecha_registro"
+			],
+			[
+				"do",
+				"documento"
+			],
+			[
+				"dependencia_",
+				"dependencia_1"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"b",
+				"btn"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"blo",
+				"bloque1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/modules/direccion/controlllers/Direccion.php",
+			"settings":
+			{
+				"buffer_size": 66954,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/tramitessds",
+		"/C/xampp/htdocs/tramitessds/application",
+		"/C/xampp/htdocs/tramitessds/application/modules",
+		"/C/xampp/htdocs/tramitessds/application/modules/coordinacion",
+		"/C/xampp/htdocs/tramitessds/application/modules/coordinacion/controllers",
+		"/C/xampp/htdocs/tramitessds/application/modules/direccion",
+		"/C/xampp/htdocs/tramitessds/application/modules/direccion/controlllers",
+		"/C/xampp/htdocs/tramitessds/application/modules/login",
+		"/C/xampp/htdocs/tramitessds/application/modules/login/controllers",
+		"/C/xampp/htdocs/tramitessds/application/modules/login/models",
+		"/C/xampp/htdocs/tramitessds/application/views",
+		"/C/xampp/htdocs/tramitessds/application/views/templates"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/tramitessds/application/modules/login/controllers/Login.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/menu_firma.php",
+		"/C/xampp/htdocs/tramitessds/sftp-config.json",
+		"/C/xampp/htdocs/tramitessds/application/modules/direccion/controlllers/Direccion.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/models/Expendedor.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/mi_tramite.php",
+		"/C/xampp/htdocs/tramitessds/assets/js/expendedor/ready.js",
+		"/C/xampp/htdocs/tramitessds/application/modules/coordinacion/controllers/Coordinacion.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/controllers/Expendedor_droga.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/lista_tramites.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/layout_expendedor.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/direccion/views/tramites_firmados_view.php",
+		"/C/xampp/htdocs/tramitessds/assets/js/expendedor/validate/editpersona.js",
+		"/C/xampp/htdocs/tramitessds/assets/js/expendedor/validate/aprobartramite.js",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/aprobar_tramite_view.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/layout_general.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/layout_rx.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/menu_validacion.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/menu_coordinacion.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/validacion/controllers/Validacion.php",
+		"/C/xampp/htdocs/tramitessds/assets/expendedor/bootstrap/vendor/bootstrap/css/bootstrap.min_nuevo.css",
+		"/C/xampp/htdocs/tramitessds/assets/expendedor/bootstrap/vendor/bootstrap/css/bootstrap.min.css",
+		"/C/xampp/htdocs/tramitessds/assets/css/expendedor/menu.css",
+		"/C/xampp/htdocs/tramitessds/assets/css/expendedor/jquery-ui.css",
+		"/C/xampp/htdocs/tramitessds/assets/css/expendedor/styles.css",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/menu_prueba.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/controllers/Usuario.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/models/Usuarios_model.php",
+		"/C/xampp/htdocs/tramitessds/application/models/Login_model.php",
+		"/C/xampp/htdocs/tramitessds/assets/expendedor/bootstrap/vendor/bootstrap/css/bootstrap.css",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/menu_prueba",
+		"/C/xampp/htdocs/tramitessds/application/views/layout_inicial.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/editar_personas.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/cargar_documentos.php",
+		"/C/xampp/htdocs/tramitessds/application/config/development/autoload.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/editar_tramite_view.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/exhumacion_view.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/licencias_rx_view.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/nuevo_tramite_view.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/layout_tramites.php",
+		"/C/xampp/htdocs/tramitessds/application/views/templates/menu_usuario.php",
+		"/C/xampp/htdocs/tramitessds/assets/js/expendedor/expendedor.js",
+		"/C/xampp/htdocs/tramitessds/application/config/development/config.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/editar_exhumacion_view.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/solicitudes_licencia_exh_view.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/rx_editarForm_view.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/rx_mis_tramites_view.php",
+		"/C/xampp/htdocs/tramitessds/assets/js/expendedor/general.js",
+		"/C/xampp/htdocs/tramitessds/application/config/development/database.php",
+		"/C/xampp/htdocs/tramitessds/application/libraries/general.php",
+		"/C/xampp/htdocs/tramitessds/assets/expendedor/bootstrap/vendor/bootstrap/js/bootstrap.min.js",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/acepta_terminos.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/editarFormCiudadano.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/usuario/views/cargar_documentos.php",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/.gitkeep",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/.gitkeep",
+		"/C/xampp/htdocs/tramitessds/application/modules/expendedor_droga/views/acepta_terminos",
+		"/C/xampp/htdocs/planasistecsp/assets/js/expendedor/expendedor.js",
+		"/C/xampp/htdocs/planasistecsp/assets/bootstrap/README.md",
+		"/C/xampp/htdocs/planasistecsp/application/modules/referente/views/referente.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/evalnoplaneada/views/evaluacion_modal.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/cronograma/models/planeadas.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/evaluacion/models/planeadas.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/evaluacion/controllers/evaluacion.php",
+		"/C/xampp/htdocs/planasistecsp/assets/js/general/ready.js",
+		"/C/xampp/htdocs/planasistecsp/application/modules/cronograma/views/cronograma_modal.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/noplaneada/views/actividad_modal.php",
+		"/C/xampp/htdocs/planasistecsp/assets/js/validate/noplaneacion/noplaneacion.js",
+		"/C/xampp/htdocs/planasistecsp/assets/js/validate/evaluacion/evaluacion.js",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/planeacionmenu.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/noplaneada/views/planeacionmenu.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/noplaneada/controllers/noplaneada.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/noplaneada/views/noplaneadas.php",
+		"/C/xampp/htdocs/planasistecsp/application/libraries/validarsesion.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/evaluacion/views/evaluacion.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/evaluacion/views/evaluacion_modal.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/cronograma/views/actividad_modal.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/noplaneada/views/cronograma.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/planeadas.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/cronograma/views/planeacion.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/cronograma/controllers/cronograma.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/cronograma/views/cronograma.php",
+		"/C/xampp/htdocs/planasistecsp/assets/js/validate/planeacion/cronograma.js",
+		"/C/xampp/htdocs/planasistecsp/assets/bootstrap/dist/css/sb-admin-2.css",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/controllers/planeacion.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/controllers/administrador.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/models/planeadas.php",
+		"/C/xampp/htdocs/planasistecsp/application/config/database.php",
+		"/C/xampp/htdocs/planasistecsp/assets/js/general/general.js",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/views/user_modal.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/actividad_modal.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/views/administrador.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/models/control.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/models/usuario.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/planeacion_old.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/views/planeacion.php",
+		"/C/xampp/htdocs/planasistecsp/application/views/login/login.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/views/adminmenu.php",
+		"/C/xampp/htdocs/planasistecsp/js/general/danevalidator.js",
+		"/C/xampp/htdocs/planasistecsp/application/models/usuario.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/planeacion.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/views/users.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/cronograma.php",
+		"/C/xampp/htdocs/planasistecsp/application/libraries/general.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/cronograma/views/planeadas.php",
+		"/C/xampp/htdocs/planasistecsp/js/admin/jsadmin.js",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/Enero.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/views/Febrero.php",
+		"/C/xampp/htdocs/planasistecsp/application/views/layout.php",
+		"/C/xampp/htdocs/planasistecsp/application/views/layout - nuevo.php",
+		"/C/xampp/htdocs/planasistecsp/application/views/layout - copia - copia.php",
+		"/C/xampp/htdocs/planasistecsp/application/views/layout - copia.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/models/parametricas.php",
+		"/C/xampp/htdocs/planasistecsp/assets/js/validate/planeacion/planeacion.js",
+		"/C/xampp/htdocs/planasistecsp/application/config/config.php",
+		"/C/xampp/htdocs/planasistecsp/assets/js/validate/admin/planeada.js",
+		"/C/xampp/htdocs/planasistecsp/assets/js/validate/admin/usuario.js",
+		"/C/xampp/htdocs/planasistecsp/application/views/template/answer.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/administrador/views/form_password.php",
+		"/C/xampp/htdocs/planasistecsp/application/controllers/login.php",
+		"/C/xampp/htdocs/planasistecsp/application/models/General_model.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/planeacion/models/usuario.php",
+		"/C/xampp/htdocs/planasistecsp/assets/js/validate/planaeacion/planeacion.js",
+		"/C/xampp/htdocs/planasistecsp/js/general/ready.js",
+		"/C/xampp/htdocs/planasistecsp/application/models/Specific_model.php",
+		"/C/xampp/htdocs/planasistecsp/css/styles.css",
+		"/C/xampp/htdocs/planasistecsp/application/modules/dashboard/models/Dashboard_model.php",
+		"/C/xampp/htdocs/planasistecsp/application/modules/dashboard/controllers/Dashboard.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\tramitessds"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MMM",
+			"direccion",
+			"TR.id_estado IN ",
+			"navbar",
+			"nav",
+			"3",
+			"roles",
+			"rol",
+			"nav.scss",
+			"consulta_archivos",
+			"update",
+			"save",
+			"id_expdrogas_tramite",
+			"date",
+			";\n",
+			"btnSubmit",
+			"form",
+			"form_aprobar",
+			"form",
+			"\"':\"\".'",
+			"pernocto_colombia",
+			"$modulo2",
+			"pernoctoNoResidente",
+			"form",
+			"btnSubmit",
+			"form",
+			"IdNivelEducativo",
+			"Nombre",
+			"IdNivelEducativo",
+			"trámite",
+			"$nivel",
+			"nivel",
+			"$nivel_educativo",
+			"nivel_educativo",
+			"estado_actividad",
+			"tema",
+			"tip_capacidad",
+			"num_personas",
+			"cual",
+			"area_operacion",
+			"nomAmbito",
+			"ambito",
+			"modalidad",
+			"idActividad",
+			"templa",
+			"validacion",
+			"Erro",
+			"<?",
+			"certificado_estudios",
+			"documento9",
+			"documento8",
+			"documento7",
+			"documento6",
+			"documento5",
+			"documento4",
+			"documento3",
+			"documento2",
+			"documento1",
+			"pdf",
+			"id_archivo",
+			"$nivel",
+			"nivel",
+			"Nivel",
+			"nivel",
+			"id_persona",
+			"nombre",
+			"ruta",
+			"Nombre",
+			"IdNivelEducativo",
+			"sm-3",
+			"dire_resi",
+			"'),\n",
+			"telefono_fijo",
+			"id_aeropuerto",
+			");\n",
+			"dependencia1",
+			"btnSubmit1",
+			"formCap1",
+			"bloquearTexto",
+			"convertirMayuscula",
+			"datepicker",
+			"telefono_fijo",
+			"modalidad",
+			"id_modalidad",
+			"$modalidad",
+			"modalidad",
+			"$ambito",
+			"ambito",
+			"direccion",
+			"telefono_fijo",
+			"email",
+			"telefono_celular",
+			"s_apellido",
+			"p_apellido",
+			"s_nombre",
+			"p_nombre",
+			"numiden",
+			"personas",
+			"});*/\n",
+			"actividades",
+			"tema",
+			"registrarTramite",
+			"editarForm",
+			"required",
+			"sm-6",
+			"banner_",
+			"certestudios",
+			"banner_ministe",
+			"banner_ministerio",
+			"certministerio",
+			"manifestacion",
+			"certvecindad",
+			"antjudiciales",
+			"banner_certsalud",
+			"certsalud",
+			"banner_libreta",
+			"banner_regcivil",
+			"banner_cedula",
+			"libreta",
+			"regcivil",
+			"cedula",
+			"array(",
+			"upload",
+			"usuario",
+			"assets/",
+			"fecha_ter",
+			"fecha"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/modules/direccion/controlllers/Direccion.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 66954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "tramites.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"general",
+				"application\\libraries\\general.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 353.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

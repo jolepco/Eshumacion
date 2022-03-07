@@ -1,0 +1,220 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col4{
+    width: 32%;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.background{
+    width: 66.666%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.background img{
+    width: 110%;
+    display: block;
+}
+
+.login-content{
+    width: 40%;
+    height: auto;
+	margin: 0 auto;
+    /*display: inline-block;*/
+    vertical-align: top;
+    text-align: center;
+}
+
+.header-form{
+    width: 100%;
+    /*padding: 30px 25px 0;*/
+    /*border-bottom: 2px solid #00A7A1;*/
+    margin-bottom: 0px;
+}
+
+.header-form img{
+    width: 200px;
+}
+
+.header-login{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #00A7A1;
+    margin-bottom: 0px;
+}
+
+.header-login img{
+    width: 80%;
+}
+
+.form-content{
+    width: 100%;
+    margin: 0 auto;	
+}
+
+.imagen-login{
+	width:100%;		
+}
+
+.imagen-login img{
+	width:100%;	
+}
+
+/*.form-login h1{
+    font-size: 1em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}*/
+
+.login-title2{
+	text-decoration: none;
+    color: #003B64;
+	font-size: 5em;
+    font-weight: 600;
+}
+
+.form-login{
+    z-index: 1000;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+}
+
+.login-input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    padding: 10px 20px !important;
+    border: none;
+    border-bottom: 1.5px solid #007590;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.login-sub input[type=submit]{
+	bottom: 0;	
+	right: 0;
+}
+
+.img-alcaldia{
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	margin-top: 20px;
+}
+
+.img-salud{
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.btn-salud{
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-login{
+	color:#2B4B91;
+	font-size: 16px;
+}
+
+input[type=submit]{
+    padding: 10px 35px;
+    background-color: #003B64;
+    border: none;
+    border-bottom: 2px solid #00827D;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    /*margin: 25px auto 10px;  */
+	
+}
+
+input:focus{
+    outline: 0;
+}
+
+.login-lost{
+    font-size: .8em;
+    font-weight: 100;
+}
+
+.login-lost a{
+    text-decoration: none;
+    color: #2E8ACB;
+}
+
+footer{
+    background-color: #2E8ACB;
+    height: auto;
+    padding: 35px 0 10px;
+    font-size: .8em;
+}
+
+footer h4{
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.links-control a, .links-gobierno a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.links-control{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    padding: 0 60px;
+}
+
+.links-gobierno{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.info-secretaria{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.info-secretaria li{
+    list-style: none;
+}
+
+.logo-alcaldia-footer{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    background-color: #014A7E;
+    padding: 30px 0;
+    margin-top: 25px;
+}
+
+.logo-alcaldia-footer img{
+    width: 200px;
+}

@@ -1,0 +1,6 @@
+php_value memory_limit 64M
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /covid-19/index.php/$1 [L]
+ErrorDocument 404 /covid-19/index.php

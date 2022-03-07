@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Cambay', sans-serif;
+}
+
+header {
+	width: 100%;
+	max-height: 200px;
+}
+
+.background {
+/*	background-image: url('../imgs/background.svg');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+.logos {
+	position: relative;
+	width: 80%;
+	margin: 25px auto;
+}
+
+.logo-people {
+	position: absolute;
+	bottom: -120px;
+	left: 25%
+}
+
+.logo-salud, .logo-bogota {
+	position: absolute; 
+	top: 10px;
+	right: 0; 
+}
+
+.logo-salud {
+	right: 20%;
+	top: 0px
+}
+
+.logo-salud img {
+	width: 80%;
+}
+
+.menu{
+	width: 100%;
+	border-top: 1px dashed #f2f2f2;
+	background-color: #54686A;
+	border-bottom: 5px solid #B3B3B3;
+}
+
+.menu-container {
+	list-style: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.menu-container .menu-item {
+	display: inline-block;
+}
+.menu-container .menu-item a {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.menu-container .menu-item a:hover {
+	background-color: #415352;
+	text-decoration: underline;
+}
+section {
+	width: 100%;
+	height: 500px; 
+	background-color: #e6e6e6
+}
+
+.footer-section {
+	position: relative;
+	width: 100%;
+	max-height: 200px;
+	bottom: 0;
+	z-index: 2000;
+	background-color: #fff;
+}
+
+.background-pie {
+	background-image: url('../imgs/background-pie.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+.logos-pie {
+	position: relative;
+	width: 80%;
+	margin: 25px auto;
+}
+
+.logo-people-pie {
+	position: absolute;
+	bottom: -120px;
+	left: 25%
+}
+
+@media (min-width: 1280px) {
+	.logo-bogota img, .logo-cuidate img {
+		width: 80%
+	}
+	.logo-salud img {
+		width: 55%;
+	} 
+}
+
+@media (min-width: 1366px) {
+header {
+border-bottom: 10px solid #54686A;
+}
+.logo-bogota img, .logo-cuidate img {
+width: 50%
+}
+.logo-people {
+bottom: -120px;
+}
+.logo-salud img {
+width: 40%;
+}
+.logo-people-pie {
+bottom: -130px;
+}
+.footer-section {
+border-bottom: 10px solid #54686A;
+}
+}
+@media (min-width: 1366px) {
+.logo-people {
+bottom: -130px;
+}
+}
